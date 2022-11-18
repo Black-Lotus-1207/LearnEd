@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Sidebar Menu | Side Navigation Bar</title>-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="dashboard.css" />
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+
+        <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">LearnEd</span>
+            <i class='bx bxs-book-open logo-icon'></i>
+        </div>
+        <div class="profile-details">
+            <img src="../images/profile.png" alt="">
+            <a href="StudentP.html" class="admin_name">XYZ</a>
+            <!-- <i class='bx bx-chevron-down' ></i> -->
+        </div>
+        <div class="sidebar">
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name">LearnEd</span>
+            </div>
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="dashboard.html" class="nav-link">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="link">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="video.html" class="nav-link">
+                            <i class='bx bx-video icon'></i>
+                            <span class="link">Video Lectures</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="notes.html" class="nav-link">
+                            <i class='bx bx-note icon'></i>
+                            <span class="link">Notes</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="quiz.html" class="nav-link">
+                            <i class='bx bx-message-dots icon'></i>
+                            <span class="link">Quiz</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="AAD.html" class="nav-link">
+                            <i class='bx bx-question-mark icon'></i>
+                            <span class="link">Ask a Doubt</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="result.html" class="nav-link">
+                            <i class='bx bx-line-chart icon'></i>
+                            <span class="link">Result</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="pyq.html" class="nav-link">
+                            <i class='bx bx-food-menu icon'></i>
+                            <span class="link">PYQ</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="bottom-cotent">
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="bx bx-cog icon"></i>
+                            <span class="link">Settings</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../getstarted.html" class="nav-link">
+                            <i class="bx bx-log-out icon"></i>
+                            <span class="link">Logout</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="content">
+        <!-- MAIN -->
+        <main>
+            <div class="head-title">
+                <h1>Welcome To LearnEd!</h1>
+            </div>
+
+            <ul class="box-info">
+                <li>
+                    <span class="text">
+                        <h3>Assignment Submitted</h3>
+                        <p>5</p>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">
+                        <h3>Assignment Pending</h3>
+                        <p>2</p>
+                    </span>
+                </li>
+                <li>
+                    <span class="text">
+                        <h3>Attendance</h3>
+                        <p>90%</p>
+                    </span>
+                </li>
+            </ul>
+
+
+            <div class="table-data">
+                <div class="order">
+                    <div class="head">
+                        <h3>Recently Watched Videos</h3>
+                        <i class='bx bx-search'></i>
+                        <i class='bx bx-filter'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Date</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Introduction to DSA</p>
+                                </td>
+                                <td>01-10-2021</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Binary Search Tree</p>
+                                </td>
+                                <td>01-10-2021</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>SQL Commands</p>
+                                </td>
+                                <td>01-10-2021</td>
+                                <td><span class="status process">Process</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Data types in Python</p>
+                                </td>
+                                <td>01-10-2021</td>
+                                <td><span class="status pending">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Algebric Stucture</p>
+                                </td>
+                                <td>01-10-2021</td>
+                                <td><span class="status completed">Completed</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="todo">
+                    <div class="head">
+                        <h3>Todos</h3>
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-filter'></i>
+                    </div>
+                    <ul class="todo-list">
+                        <li class="completed">
+                            <p>Todo List</p>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="completed">
+                            <p>Todo List</p>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="not-completed">
+                            <p>Todo List</p>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="completed">
+                            <p>Todo List</p>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="not-completed">
+                            <p>Todo List</p>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- MAIN -->
+    <script>
+        const navBar = document.querySelector("nav"),
+            menuBtns = document.querySelectorAll(".menu-icon"),
+            overlay = document.querySelector(".overlay");
+
+        menuBtns.forEach((menuBtn) => {
+            menuBtn.addEventListener("click", () => {
+                navBar.classList.toggle("open");
+            });
+        });
+
+        overlay.addEventListener("click", () => {
+            navBar.classList.remove("open");
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Sidebar Menu | Side Navigation Bar</title>-->
+    <!-- CSS -->
+    <link rel="stylesheet" href="dashboard.css" />
+    <link rel="stylesheet" href="quiz.css" />
+	<script type="text/javascript" src="../script.js"></script>
+
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+
+        <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">LearnEd</span>
+            <i class='bx bxs-book-open logo-icon'></i>
+        </div>
+        <div class="profile-details">
+            <img src="../images/profile.png" alt="">
+            <a href="StudentP.html" class="admin_name">XYZ</a>
+            <!-- <i class='bx bx-chevron-down' ></i> -->
+        </div>
+        <div class="sidebar">
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name">LearnEd</span>
+            </div>
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="dashboard.html" class="nav-link">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="link">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="video.html" class="nav-link">
+                            <i class='bx bx-video icon'></i>
+                            <span class="link">Video Lectures</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="notes.html" class="nav-link">
+                            <i class='bx bx-note icon'></i>
+                            <span class="link">Notes</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="quizdash.html" class="nav-link">
+                            <i class='bx bx-message-dots icon'></i>
+                            <span class="link">Quiz</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="AAD.html" class="nav-link">
+                            <i class='bx bx-question-mark icon'></i>
+                            <span class="link">Ask a Doubt</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="result.html" class="nav-link">
+                            <i class='bx bx-line-chart icon'></i>
+                            <span class="link">Result</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="pyq.html" class="nav-link">
+                            <i class='bx bx-food-menu icon'></i>
+                            <span class="link">PYQ</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="bottom-cotent">
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="bx bx-cog icon"></i>
+                            <span class="link">Settings</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="../getstarted.html" class="nav-link">
+                            <i class="bx bx-log-out icon"></i>
+                            <span class="link">Logout</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="content">
+        <!-- MAIN -->
+        <div class="title" id="title">
+            <span>Daily Quiz on LearnEd</span>
+            <div class="shortdesc"><br>
+                <p>If you think education is expensive, try ignorance</p>
+            </div>
+            <button onclick="startquiz()">Start Now</button>
+        </div>
+    
+    
+    <div class="panel" id="panel">
+        
+        <div class="left-side" id="left">
+            <ul>
+                <li onclick="quizt(1)">HOME</li>
+                <li onclick="quizt(2)">C/C++</li>
+                <li onclick="quizt(3)">Java</li>
+                <li onclick="quizt(4)">Python</li>
+                <li onclick="quizt(5)">JavaScript</li>
+                <li onclick="quizt(6)">Data Structures</li>
+                <li onclick="quizt(7)">Algorithm</li>
+                <li onclick="quizt(8)">Interview Questions</li>
+            </ul>
+        </div>
+    
+        <div class="right-side" id="right">
+            <div id="quiz-container">
+                
+                <div id="f1"><div class="quiz-frame main-frame"></div></div>
+                                        
+                <div id="f2"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSe1xs1-41MAbLN7KkXrJwtGdbl5ydxe_vX_nmFRjf6c0wtYkA/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></iframe></div>
+                
+                <div id="f3"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdHFDm_BakVxro_zJI78OF2OLJpXgDzzaAVMHD9hptWlXBSpA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+                
+                <div id="f4"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSdgD7yFEJtqpkImDiLAaQ7w9VcsO688gr1V3Gl7FqwM5yXtWQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+    
+                <div id="f5"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSchDBnai_Aup7YFJQegg4z-qoB338p010VgZRxBYDT17xoRew/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+    
+                <div id="f6"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSfY5oIAz4R9Ty-LBpx7h4th6OJ0-RkrxIlLslRV4NjwwW8_uw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+                
+                <div id="f7"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSflwS89sG7H98J9vFgFqJgsKaZ5gpq3yUlOiW3up7RQQ-qRnw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+    
+                <div id="f8"><iframe class="quiz-frame" src="https://docs.google.com/forms/d/e/1FAIpQLSe_aS8-CMNFdUzI1UE73zahC2bmMwJkmB6FJXPIeKbLIBqB4Q/viewform?embedded=true" frameborder="0" marginheiclass="quiz-frame" ght="0" marginwidth="0">Loading…</iframe></div>
+    
+            </div>
+        </div>
+    
+    </div>
+        <!-- MAIN -->
+    <script>
+        const navBar = document.querySelector("nav"),
+            menuBtns = document.querySelectorAll(".menu-icon"),
+            overlay = document.querySelector(".overlay");
+
+        menuBtns.forEach((menuBtn) => {
+            menuBtn.addEventListener("click", () => {
+                navBar.classList.toggle("open");
+            });
+        });
+
+        overlay.addEventListener("click", () => {
+            navBar.classList.remove("open");
+        });
+    </script>
+</body>
+
+</html>

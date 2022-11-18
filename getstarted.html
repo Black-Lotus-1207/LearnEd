@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>LearnEd</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><h1>LearnEd</h1></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#about_section">About Us</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>	
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/search.png" alt="search"></div>
+			<a class="get-started" href="start.html">Get Started</a>
+			<!-- <img src="images/menu.png" class="menu" onclick="sideMenu(0)" alt="menu"> -->
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>“The more that you read, the more things you will know. The more that you learn, the more places you'll go.”</p>
+				<h5>There is no end to education. It is not that you read a book, pass an examination, and finish with education. The whole of life, from the moment you are born to the moment you die, is a process of learning.</h5>	
+			</div>
+			<div class="svg-image">
+				<img src="images/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		
+	</header>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">About Us</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/img2.jpg">
+				</div>
+				<div class="side-text">
+					<h2>What is LearnEd</h2>
+					<p>LearnEd  is a Student-Teacher Portal where teachers and student can sign up and teachers can add students in their class.Learn Ed contains more features 
+						like:Teachers can add or edit their student's marks after adding them in the class.Teachers can upload assignments which will be sent to all students in 
+						their class and students can download the assignments.Students can also submit their assignment but once submitted can't be changed later.Teachers can also 
+						see all the mark given by them to a student through their marks profile and can edit them if necessary.Students can see marks given to them by teachers in 
+						marks section. Student can see the list of all teachers in the portal and can message any of them. Teachers can see all the messages written by students in 
+						Inbox. User can see their profile through profile option. User can also change their password if necessary.
+					</p>
+				</div>
+		</div>
+	</div>
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">We're the Creators</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/p4.png"></center>
+				<center><div class="card-title">Sayali Patil</div>
+				<div id="detail">
+					<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/p1.png"></center>
+				<center><div class="card-title">Sahil Nasur</div>
+				<div id="detail">
+					<p>“ Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity “</p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/p2.png"></center>
+				<center><div class="card-title">Pranav Godase</div>
+				<div id="detail">
+					<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/p3.png"></center>
+				<center><div class="card-title">Raj Kakodkar</div>
+				<div id="detail">
+					<p>“ Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity “</p>
+					<div class="duty"></div>
+					<a href="#" target="_blank"><button class="btn">Follow +</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px;">Services</p></center>
+		</div>
+		<a href="subjects/computer_courses.html"><div class="s-card"><img src="images/computer-courses.png"><p>Online Video Lectures</p></div></a>
+		<a href="subjects/jee.html"><div class="s-card"><img src="images/brainbooster.png"><p>Building Concepts for Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/online-tutorials.png"><p>Online Lecture Notes </p></div></a>
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="images/papers.jpg"><p>Preveious Year Question paper</p></div></a>
+		<a href="#"><div class="s-card"><img src="images/report.png"><p>Performance Report</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+		<a href="subjects/quiz.html"><div class="s-card"><img src="images/quiz.png"><p>Quizes to Improve IQ</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="images/help.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<center><p style="font-size: 50px; padding: 100px">Contact Us</p></center>
+		<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+				<center>
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				</center>
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form action="mailto:roshank9419@gmail.com" method="post" enctype="text/plain">
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<h1>LearnEd</h1>
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/fb.png"></a>
+					<a href="#"><img src="images/insta.png"></a>
+					<a href="#"><img src="images/tt.png"></a>
+					<a href="#"><img src="images/ytube.png"></a>
+					<a href="#"><img src="images/linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Created By Sayali Patil, Sahil Nasur, Pranav Godase, Raj Kodkar.</p>
+				<br><p><img src="images/location.png">Pillai College of Engineering<br>New Panvel</p><br>
+				<p><img src="images/phone.png"> +91-1234-567-890<br><img src="images/mail.png">&nbsp; learned@gmail.com</p>
+			</div>
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
